@@ -507,10 +507,10 @@ if !s:low_color
   hi CursorColumn ctermbg=234
   hi CursorLine ctermbg=234
   hi SpecialKey ctermbg=234
-  exec "hi NonText ctermbg=".g:jellybeans_background_color_256
+  hi NonText ctermbg=NONE
   exec "hi LineNr ctermbg=".g:jellybeans_background_color_256
   hi DiffText ctermfg=81
-  exec "hi Normal ctermbg=".g:jellybeans_background_color_256
+  hi Normal ctermbg=NONE
   hi DbgBreakPt ctermbg=53
   hi IndentGuidesOdd ctermbg=235
   hi IndentGuidesEven ctermbg=234
